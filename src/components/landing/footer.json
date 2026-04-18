@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_landing_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "discuss"
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "landing.link"
+    },
+    "contactText": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
