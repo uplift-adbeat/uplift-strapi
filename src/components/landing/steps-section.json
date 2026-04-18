@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_landing_steps_sections",
+  "info": {
+    "displayName": "Steps Section",
+    "icon": "walk"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string",
+      "required": true
+    },
+    "heading": {
+      "type": "text",
+      "required": true
+    },
+    "intro": {
+      "type": "text",
+      "required": true
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "landing.step-item"
+    }
+  }
+}
