@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_landing_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "layout"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string",
+      "required": true
+    },
+    "headline": {
+      "type": "text",
+      "required": true
+    },
+    "subheadline": {
+      "type": "text",
+      "required": true
+    },
+    "primaryCtaLabel": {
+      "type": "string",
+      "required": true
+    },
+    "secondaryCtaLabel": {
+      "type": "string",
+      "required": true
+    },
+    "socialProof": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

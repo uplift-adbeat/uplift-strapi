@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_landing_waitlists",
+  "info": {
+    "displayName": "Waitlist",
+    "icon": "mail"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "body": {
+      "type": "text",
+      "required": true
+    },
+    "emailPlaceholder": {
+      "type": "string",
+      "required": true
+    },
+    "submitLabel": {
+      "type": "string",
+      "required": true
+    },
+    "successMessage": {
+      "type": "string",
+      "required": true
+    },
+    "disclaimer": {
+      "type": "string",
+      "required": true
+    },
+    "invalidEmailMessage": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

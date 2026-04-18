@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_landing_step_items",
+  "info": {
+    "displayName": "Step Item",
+    "icon": "numberList"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

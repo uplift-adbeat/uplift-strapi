@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_landing_features_sections",
+  "info": {
+    "displayName": "Features Section",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string",
+      "required": true
+    },
+    "heading": {
+      "type": "text",
+      "required": true
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "landing.feature-item"
+    }
+  }
+}

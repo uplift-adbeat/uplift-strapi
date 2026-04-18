@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_landing_feature_items",
+  "info": {
+    "displayName": "Feature Item",
+    "icon": "grid"
+  },
+  "options": {},
+  "attributes": {
+    "iconKey": {
+      "type": "enumeration",
+      "enum": ["monitor", "map-pin", "layout-grid", "chart"],
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_landing_navs",
+  "info": {
+    "displayName": "Navigation",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "brandText": {
+      "type": "string",
+      "required": true
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "landing.link"
+    },
+    "primaryCtaLabel": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
