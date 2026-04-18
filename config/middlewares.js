@@ -10,6 +10,7 @@ module.exports = ({ env }) => [
         'http://127.0.0.1:5173',
         'http://localhost:4173',
         'http://127.0.0.1:4173',
+        'https://web-landing-blue.vercel.app',
       ]),
       headers: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
     },
