@@ -36,6 +36,16 @@
         }
       }
     },
+    "network": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing.network-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
     "hero": {
       "type": "component",
       "repeatable": false,

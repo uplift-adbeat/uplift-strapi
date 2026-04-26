@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_landing_network_sections",
+  "info": {
+    "displayName": "Network Section",
+    "icon": "monitor"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string",
+      "required": true
+    },
+    "heading": {
+      "type": "text",
+      "required": true
+    },
+    "body": {
+      "type": "text",
+      "required": true
+    },
+    "stats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "landing.network-stat"
+    }
+  }
+}

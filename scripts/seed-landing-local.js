@@ -7,108 +7,125 @@ const LANDING_PAGE_UID = 'api::landing-page.landing-page';
 const entries = {
   en: {
     seo: {
-      metaTitle: 'Uplift | Elevator advertising across Tbilisi',
+      metaTitle: 'Uplift | Premium elevator advertising network in Tbilisi',
       metaDescription:
-        'Run localized ad campaigns on elevator screens across Tbilisi buildings with simple pricing and fast launch support.',
+        'Run targeted ad campaigns on digital elevator screens across Tbilisi. Custom campaign packages for clinics, real estate, retail, restaurants, and more.',
     },
     nav: {
       brandText: 'Uplift',
       links: [
+        { label: 'Network', href: '#network' },
         { label: 'Features', href: '#features' },
         { label: 'How it works', href: '#how-it-works' },
         { label: 'Pricing', href: '#pricing' },
       ],
-      primaryCtaLabel: 'Start advertising',
+      primaryCtaLabel: 'Talk to sales',
+    },
+    network: {
+      eyebrow: 'Network Coverage',
+      heading: "50+ buildings across\nevery district of Tbilisi.",
+      body:
+        "Uplift operates a growing network of high-visibility elevator screens in premium residential and commercial buildings. Each screen reaches a captive audience that can't skip, scroll past, or turn away. Campaigns are placed where your customers live, work, and shop.",
+      stats: [
+        { value: '50+', label: 'Buildings' },
+        { value: '200+', label: 'Screens' },
+        { value: 'Tbilisi-wide', label: 'Coverage' },
+      ],
     },
     hero: {
-      eyebrow: 'Now live across Tbilisi buildings',
-      headline: "Your brand,\ninside Tbilisi's\nelevators.",
+      eyebrow: 'Premium elevator advertising in Tbilisi',
+      headline: "Your brand,\nin front of the\naudiences that matter.",
       subheadline:
-        "Uplift places your ads on digital screens inside the city's most-visited buildings. A captive audience — no skipping, no scrolling past.",
-      primaryCtaLabel: 'Start advertising',
-      secondaryCtaLabel: 'See our locations',
-      socialProof: '50+ buildings · 200+ screens · Tbilisi-wide',
+        "Uplift connects businesses with captive audiences on digital elevator screens across Tbilisi's most-visited residential and commercial buildings. Managed campaigns — you provide the creative, we handle everything else.",
+      primaryCtaLabel: 'Talk to sales',
+      secondaryCtaLabel: 'Explore the network',
+      socialProof: 'Trusted by clinics, real estate, retail, and restaurant brands',
     },
     features: {
       eyebrow: 'Why Uplift',
-      heading: "Advertising that\ncan't be ignored.",
+      heading: "Advertising that\nreaches real audiences.",
       items: [
         {
           iconKey: 'monitor',
-          title: 'Prime elevator placement',
+          title: 'Premium building placement',
           description:
-            'Your ads appear on screens inside elevator lobbies and cabins of premium residential and commercial buildings. A captive audience with no option to skip.',
+            'Your ads appear on digital screens inside elevator lobbies and cabins of high-traffic residential and commercial buildings. A captive audience that sees your message every day.',
         },
         {
           iconKey: 'map-pin',
-          title: 'Target by location',
+          title: 'Precise location targeting',
           description:
-            'Choose specific buildings, neighborhoods, or districts of Tbilisi. Reach residents in Saburtalo, shoppers in Vake, or commuters city-wide.',
+            'Select specific buildings, neighborhoods, or entire districts. Reach residents in Saburtalo, shoppers in Vake, office workers in the city center, or cover the whole city.',
         },
         {
           iconKey: 'layout-grid',
-          title: 'Flexible campaign formats',
+          title: 'Managed campaign service',
           description:
-            'Run full-screen ads or book a rotation slot. Daily, weekly, or monthly durations — no long-term contracts required.',
+            'Our team handles campaign planning, creative review, scheduling, and delivery. You focus on your business — we ensure your ads run on the right screens at the right time.',
         },
         {
           iconKey: 'chart',
-          title: 'Real-time impressions',
+          title: 'Campaign reporting',
           description:
-            "Track your campaign's reach from a live dashboard. Impression counts and active screen status update daily.",
+            'Receive a campaign recap with delivery confirmation, screen coverage, and performance summary after your campaign completes. Transparent results you can share with your team.',
         },
       ],
     },
     steps: {
       eyebrow: 'How it works',
-      heading: 'Advertising\nmade simple.',
+      heading: 'From brief\nto live campaign.',
       intro:
-        'From creative upload to live campaign in less than 24 hours. No technical setup, no contract lock-in.',
+        'A simple process managed by our team. No technical setup required — you share your goals and creative, we handle distribution and delivery.',
       items: [
         {
           number: '01',
-          title: 'Choose your locations',
+          title: 'Talk to our team',
           description:
-            'Browse our building map across Tbilisi. Select specific buildings, neighborhoods, or districts that match your target audience.',
+            'Share your campaign goals, target audience, preferred locations, budget, and timeline. We recommend the best package for your objectives.',
         },
         {
           number: '02',
-          title: 'Upload your creative',
+          title: 'Provide your creative',
           description:
-            'Provide your ad in the supported formats. Our team reviews it quickly and schedules it for your chosen campaign dates.',
+            'Send us your ad in the supported formats. Our team reviews it for quality and compatibility, then schedules it for your chosen campaign dates and screens.',
         },
         {
           number: '03',
-          title: 'Go live and track results',
+          title: 'We launch and deliver',
           description:
-            'Your campaign runs across your selected screens. Monitor impressions and reach through your personal campaign dashboard.',
+            'Your campaign runs on your selected screens. You receive a campaign recap with delivery confirmation and coverage summary after completion.',
         },
       ],
     },
     pricing: {
       eyebrow: 'Pricing',
-      heading: 'Simple pricing\nfor local campaigns.',
+      heading: 'Custom packages\nfor your campaign goals.',
       body:
-        'Start with a single elevator monitor for a single day at 1 GEL. If you need a district-wide rollout, multi-building schedule, or a larger purchase, we prepare custom pricing for volume campaigns.',
+        'Every campaign is different. We build pricing around your target locations, campaign duration, number of screens, and frequency. Whether you need a single-building launch or a city-wide rollout, we prepare a package that fits your budget.',
       stats: [
-        { value: '1', label: 'Monitor' },
-        { value: '1', label: 'Day' },
-        { value: '1 GEL', label: 'Base rate' },
+        { value: 'Location-based', label: 'Pricing' },
+        { value: 'Flexible', label: 'Duration' },
+        { value: 'Custom', label: 'Packages' },
       ],
-      note: 'Custom pricing is available for bulk placements, longer schedules, and multi-building packages.',
-      ctaLabel: 'Request campaign pricing',
+      note: 'Contact our team for a tailored proposal. Volume discounts available for multi-building and long-term campaigns.',
+      ctaLabel: 'Request a proposal',
       imageAlt: 'Uplift elevator advertising monitors',
-      caption: 'Portrait elevator monitors designed for high-visibility indoor ad placements.',
+      caption: 'High-visibility portrait elevator screens placed in premium Tbilisi buildings.',
     },
     waitlist: {
-      heading: 'Advertise with Uplift.',
+      heading: 'Start your campaign.',
       body:
-        'Join our early advertiser list and lock in preferred rates before we open to the public.',
+        'Tell us about your advertising goals. Our team will prepare a custom campaign proposal based on your target audience, preferred locations, and budget.',
+      namePlaceholder: 'Your name',
+      companyPlaceholder: 'Company name',
       emailPlaceholder: 'you@company.com',
-      submitLabel: 'Join waitlist',
-      successMessage: "You're on the list — we'll be in touch soon.",
-      disclaimer: 'No spam. Unsubscribe anytime.',
+      phonePlaceholder: 'Phone number',
+      messagePlaceholder: 'Tell us about your campaign goals, target audience, and any specific requirements',
+      submitLabel: 'Send inquiry',
+      successMessage: 'Thank you. We will review your inquiry and get back to you within one business day.',
+      disclaimer: 'Your information is only used to prepare your campaign proposal.',
       invalidEmailMessage: 'Please enter a valid email address.',
+      requiredFieldMessage: 'Please fill in all required fields.',
     },
     footer: {
       links: [
@@ -121,108 +138,125 @@ const entries = {
   },
   ka: {
     seo: {
-      metaTitle: 'Uplift | ლიფტის ეკრანებზე რეკლამა თბილისში',
+      metaTitle: 'Uplift | პრემიუმ ლიფტის რეკლამა თბილისში',
       metaDescription:
-        'გაუშვით ლოკალური სარეკლამო კამპანიები თბილისის კორპუსების ლიფტის ეკრანებზე მარტივი ტარიფებით და სწრაფი გაშვებით.',
+        'განათავსეთ მიზნობრივი სარეკლამო კამპანიები ციფრულ ლიფტის ეკრანებზე მთელი თბილისის მასშტაბით. ინდივიდუალური პაკეტები კლინიკებისთვის, უძრავი ქონებისთვის, საცალო ვაჭრობისთვის, რესტორნებისთვის.',
     },
     nav: {
       brandText: 'Uplift',
       links: [
+        { label: 'ქსელი', href: '#network' },
         { label: 'უპირატესობები', href: '#features' },
         { label: 'როგორ მუშაობს', href: '#how-it-works' },
         { label: 'ფასები', href: '#pricing' },
       ],
-      primaryCtaLabel: 'დაიწყე რეკლამა',
+      primaryCtaLabel: 'დაგვიკავშირდით',
+    },
+    network: {
+      eyebrow: 'ქსელის დაფარვა',
+      heading: '50+ შენობა\nთბილისის ყველა რაიონში.',
+      body:
+        'Uplift მართავს მზარდ ქსელს მაღალი ხილვადობის ლიფტის ეკრანებით პრემიუმ საცხოვრებელ და კომერციულ შენობებში. თითოეული ეკრანი აღწევს აუდიტორიამდე, რომელიც ვერ გადაახტება, ვერ ჩასქროლავს ან ვერ გვერდს აუვლის. კამპანიები განთავსებულია იქ, სადაც თქვენი მომხმარებლები ცხოვრობენ, მუშაობენ და ყიდულობენ.',
+      stats: [
+        { value: '50+', label: 'შენობა' },
+        { value: '200+', label: 'ეკრანი' },
+        { value: 'მთელი თბილისი', label: 'დაფარვა' },
+      ],
     },
     hero: {
-      eyebrow: 'უკვე აქტიურია თბილისის შენობებში',
-      headline: 'შენი ბრენდი,\nთბილისის\nლიფტებში.',
+      eyebrow: 'პრემიუმ ლიფტის რეკლამა თბილისში',
+      headline: 'თქვენი ბრენდი,\nაუდიტორიის\nთვალწინ.',
       subheadline:
-        'Uplift განათავსებს შენს რეკლამას ციფრულ ეკრანებზე ქალაქის ყველაზე ხალხმრავალ შენობებში. აუდიტორია, რომელიც ვერ გადაახტება და ვერ ჩასქროლავს.',
-      primaryCtaLabel: 'დაიწყე რეკლამა',
-      secondaryCtaLabel: 'იხილე ლოკაციები',
-      socialProof: '50+ შენობა · 200+ ეკრანი · მთელი თბილისი',
+        'Uplift აკავშირებს ბიზნესებს აუდიტორიასთან ციფრულ ლიფტის ეკრანებზე თბილისის ყველაზე ხალხმრავალ საცხოვრებელ და კომერციულ შენობებში. მართული კამპანიები — თქვენ გვაწვდით კრეატივს, ჩვენ ვუზრუნველყოფთ ყველაფერ დანარჩენს.',
+      primaryCtaLabel: 'დაგვიკავშირდით',
+      secondaryCtaLabel: 'გაეცანით ქსელს',
+      socialProof: 'სანდო კლინიკების, უძრავი ქონების, საცალო ვაჭრობისა და რესტორნების ბრენდების მიერ',
     },
     features: {
       eyebrow: 'რატომ Uplift',
-      heading: 'რეკლამა,\nრომელსაც ვერ გამოტოვებენ.',
+      heading: 'რეკლამა, რომელიც\nაღწევს რეალურ აუდიტორიამდე.',
       items: [
         {
           iconKey: 'monitor',
-          title: 'პრემიუმ ლიფტის განთავსება',
+          title: 'პრემიუმ შენობებში განთავსება',
           description:
-            'შენი რეკლამა გამოჩნდება ეკრანებზე ლიფტის ჰოლებსა და კაბინებში, პრემიუმ საცხოვრებელ და კომერციულ შენობებში. აუდიტორია ვერ გამოტოვებს მას.',
+            'თქვენი რეკლამა გამოჩნდება ციფრულ ეკრანებზე ლიფტის ჰოლებსა და კაბინებში, მაღალი ტრაფიკის მქონე საცხოვრებელ და კომერციულ შენობებში. აუდიტორია, რომელიც ყოველდღე ხედავს თქვენს გზავნილს.',
         },
         {
           iconKey: 'map-pin',
-          title: 'თარგეთირება ლოკაციით',
+          title: 'ზუსტი ლოკაციის თარგეთირება',
           description:
-            'შეარჩიე კონკრეტული შენობები, უბნები ან რაიონები თბილისში. მიაწვდინე ხმა საბურთალოს მაცხოვრებლებს, ვაკის მყიდველებს ან მთელ ქალაქს.',
+            'შეარჩიეთ კონკრეტული შენობები, უბნები ან მთლიანი რაიონები. მიაწვდინეთ ხმა საბურთალოს მაცხოვრებლებს, ვაკის მყიდველებს, ცენტრის ოფისის თანამშრომლებს ან დაფარეთ მთელი ქალაქი.',
         },
         {
           iconKey: 'layout-grid',
-          title: 'მოქნილი კამპანიის ფორმატები',
+          title: 'მართული კამპანიის სერვისი',
           description:
-            'გაუშვი სრულეკრანიანი რეკლამა ან დაჯავშნე როტაციის სლოტი. ყოველდღიური, კვირეული ან თვიური განრიგი გრძელვადიანი კონტრაქტის გარეშე.',
+            'ჩვენი გუნდი უზრუნველყოფს კამპანიის დაგეგმვას, კრეატივის შემოწმებას, განრიგს და მიწოდებას. თქვენ ფოკუსირდებით თქვენს ბიზნესზე — ჩვენ ვუზრუნველყოფთ, რომ თქვენი რეკლამა სწორ ეკრანებზე სწორ დროს გაეშვას.',
         },
         {
           iconKey: 'chart',
-          title: 'იმპრესიები რეალურ დროში',
+          title: 'კამპანიის ანგარიშგება',
           description:
-            'თვალი ადევნე კამპანიის შედეგებს ცოცხალი დაფიდან. იმპრესიები და აქტიური ეკრანების სტატუსი ყოველდღიურად ახლდება.',
+            'კამპანიის დასრულების შემდეგ მიიღებთ შეჯამებას მიწოდების დადასტურებით, ეკრანის დაფარვით და შედეგების რეზიუმეთი. გამჭვირვალე შედეგები, რომელთა გაზიარებაც შეგიძლიათ თქვენს გუნდთან.',
         },
       ],
     },
     steps: {
       eyebrow: 'როგორ მუშაობს',
-      heading: 'რეკლამა,\nმარტივად.',
+      heading: 'ბრიფიდან\nპირდაპირ ეთერამდე.',
       intro:
-        'კრეატივის ატვირთვიდან პირდაპირ ეთერში გაშვებამდე 24 საათზე ნაკლებში. ტექნიკური სეთაფისა და ხანგრძლივი კონტრაქტის გარეშე.',
+        'მარტივი პროცესი, რომელსაც ჩვენი გუნდი მართავს. ტექნიკური სეთაფი არ არის საჭირო — თქვენ გვიზიარებთ მიზნებსა და კრეატივს, ჩვენ ვუზრუნველყოფთ გავრცელებასა და მიწოდებას.',
       items: [
         {
           number: '01',
-          title: 'აირჩიე ლოკაციები',
+          title: 'დაგვიკავშირდით',
           description:
-            'დაათვალიერე ჩვენი შენობების რუკა თბილისში. შეარჩიე შენობები, უბნები ან რაიონები, რომლებიც შენს აუდიტორიას შეესაბამება.',
+            'გაგვიზიარეთ თქვენი კამპანიის მიზნები, სამიზნე აუდიტორია, სასურველი ლოკაციები, ბიუჯეტი და ვადები. ჩვენ შემოგთავაზებთ საუკეთესო პაკეტს თქვენი მიზნებისთვის.',
         },
         {
           number: '02',
-          title: 'ატვირთე კრეატივი',
+          title: 'მოგვაწოდეთ კრეატივი',
           description:
-            'მოგვაწოდე რეკლამა მხარდაჭერილ ფორმატში. ჩვენი გუნდი სწრაფად ამოწმებს და გეგმავს განთავსებას არჩეულ თარიღებზე.',
+            'გამოგვიგზავნეთ თქვენი რეკლამა მხარდაჭერილ ფორმატში. ჩვენი გუნდი ამოწმებს ხარისხსა და თავსებადობას, შემდეგ გეგმავს განთავსებას თქვენს მიერ არჩეულ თარიღებსა და ეკრანებზე.',
         },
         {
           number: '03',
-          title: 'გაუშვი და აკონტროლე შედეგი',
+          title: 'ჩვენ ვუშვებთ და ვაწვდით',
           description:
-            'კამპანია გაეშვება შენს არჩეულ ეკრანებზე. იმპრესიებსა და დაფარვას პერსონალური დაფიდან დააკვირდები.',
+            'თქვენი კამპანია გაეშვება არჩეულ ეკრანებზე. დასრულების შემდეგ მიიღებთ კამპანიის შეჯამებას მიწოდების დადასტურებითა და დაფარვის რეზიუმეთი.',
         },
       ],
     },
     pricing: {
       eyebrow: 'ფასები',
-      heading: 'მარტივი ტარიფები\nლოკალური კამპანიებისთვის.',
+      heading: 'ინდივიდუალური პაკეტები\nთქვენი კამპანიის მიზნებისთვის.',
       body:
-        'დაიწყე ერთი ლიფტის მონიტორით ერთი დღით სულ 1 ლარად. თუ გჭირდება რაიონული გაშლა, მრავალშენობიანი განრიგი ან დიდი მოცულობა, მოვამზადებთ ინდივიდუალურ შეთავაზებას.',
+        'ყველა კამპანია განსხვავებულია. ჩვენ ვაშენებთ ფასს თქვენი სამიზნე ლოკაციების, კამპანიის ხანგრძლივობის, ეკრანების რაოდენობისა და სიხშირის მიხედვით. იქნება ეს ერთი შენობის გაშვება თუ მთელი ქალაქის დაფარვა, ჩვენ მოვამზადებთ პაკეტს, რომელიც თქვენს ბიუჯეტს შეესაბამება.',
       stats: [
-        { value: '1', label: 'მონიტორი' },
-        { value: '1', label: 'დღე' },
-        { value: '1 GEL', label: 'საბაზო ფასი' },
+        { value: 'ლოკაციაზე', label: 'ფასწარმოქმნა' },
+        { value: 'მოქნილი', label: 'ხანგრძლივობა' },
+        { value: 'ინდივიდუალური', label: 'პაკეტები' },
       ],
-      note: 'ინდივიდუალური ფასები ხელმისაწვდომია დიდი მოცულობის, გრძელი განრიგისა და მრავალშენობიანი პაკეტებისთვის.',
-      ctaLabel: 'მოითხოვე ფასი',
+      note: 'დაგვიკავშირდით ინდივიდუალური შემოთავაზებისთვის. მოცულობის ფასდაკლებები ხელმისაწვდომია მრავალშენობიანი და გრძელვადიანი კამპანიებისთვის.',
+      ctaLabel: 'მოითხოვეთ შემოთავაზება',
       imageAlt: 'Uplift-ის ლიფტის სარეკლამო მონიტორები',
-      caption: 'პორტრეტული ლიფტის მონიტორები მაღალი ხილვადობის შიდა რეკლამისთვის.',
+      caption: 'მაღალი ხილვადობის პორტრეტული ლიფტის ეკრანები განთავსებული პრემიუმ თბილისის შენობებში.',
     },
     waitlist: {
-      heading: 'განათავსე რეკლამა Uplift-ში.',
+      heading: 'დაიწყეთ თქვენი კამპანია.',
       body:
-        'დაემატე ადრეული რეკლამოდამკვეთების სიას და დაიფიქსირე სასურველი ტარიფები საჯარო გახსნამდე.',
+        'გვითხარით თქვენი სარეკლამო მიზნების შესახებ. ჩვენი გუნდი მოამზადებს ინდივიდუალურ კამპანიის შემოთავაზებას თქვენი სამიზნე აუდიტორიის, სასურველი ლოკაციებისა და ბიუჯეტის მიხედვით.',
+      namePlaceholder: 'თქვენი სახელი',
+      companyPlaceholder: 'კომპანიის სახელი',
       emailPlaceholder: 'you@company.com',
-      submitLabel: 'დამატება',
-      successMessage: 'თქვენ სიაში ხართ — მალე დაგიკავშირდებით.',
-      disclaimer: 'სპამი არა. ნებისმიერ დროს შეგიძლია გაუქმება.',
-      invalidEmailMessage: 'გთხოვ, მიუთითე სწორი ელფოსტა.',
+      phonePlaceholder: 'ტელეფონის ნომერი',
+      messagePlaceholder: 'გვითხარით თქვენი კამპანიის მიზნების, სამიზნე აუდიტორიისა და კონკრეტული მოთხოვნების შესახებ',
+      submitLabel: 'გაგზავნეთ შეკითხვა',
+      successMessage: 'გმადლობთ. ჩვენ განვიხილავთ თქვენს შეკითხვას და დაგიკავშირდებით ერთი სამუშაო დღის განმავლობაში.',
+      disclaimer: 'თქვენი ინფორმაცია გამოყენებული იქნება მხოლოდ კამპანიის შემოთავაზების მოსამზადებლად.',
+      invalidEmailMessage: 'გთხოვთ, მიუთითოთ სწორი ელფოსტა.',
+      requiredFieldMessage: 'გთხოვთ, შეავსოთ ყველა სავალდებულო ველი.',
     },
     footer: {
       links: [
